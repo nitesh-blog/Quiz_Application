@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Quizzer | GK</title>
+    <link rel="shortcut icon" type="image" href="https://cdn-icons-png.flaticon.com/512/71/71768.png">
+    <script type="text/javascript" src="../JavaScript Files/gk.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <link rel="stylesheet" href="../Css File/quiz.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <span class="p-2">
+        <i  class="fa-solid fa-circle-question fa-2xl"></i>
+       </span>
+
+      <a class="navbar-brand" href="index.html">Quizzer</a>
+     
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    >
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Genral Knowledge </a>
+          </li>
+        </ul>
+      </div>
+      <h4 > Timer:  </h4>
+        <div class="quiz_timer " style="margin-right: 100px;">
+          <span class="time">00:00</span>
+          </div>
+    </nav>
+  </div>
+  
+  
+  
+    <div class="container">
+      <h2>Genral Knowledge Quizzes</h2>
+    </div>
+
+    <form name="quiz" id="quiz">
+
+      <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+          <h2>Q.1.</h2>
+          <p id="question">Grand Central Terminal, Park Avenue, New York is the world's</p>
+        
+          <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question1" id="option1" value="largest railway station" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option1">largest railway station</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question1" id="option2" value="highest railway station" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option2">highest railway station</label>
+            </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question1" id="option3" value="longest railway station" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option3">longest railway station</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question1" id="option4" value="None of the above" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option4">None of the above</label>
+            </div>
+            </div>
+          
+        </div>
+  
+        <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+          <h2>Q.2.</h2>
+          <p id="question">Entomology is the science that studies</p>
+          <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question2" id="option11" value="Behavior of human beings" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option11">Behavior of human beings</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question2" id="option22" value="Insects" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option22">Insects</label>
+            </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question2" id="option33" value="The origin and history of technical and scientific terms" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option33">The origin and history of technical and scientific terms</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question2" id="option44" value="The formation of rocks" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option44">The formation of rocks</label>
+            </div>
+            </div>
+          
+        </div>
+          
+        </div>
+  
+        <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+          <h2>Q.3.</h2>
+          <p id="question">Eritrea, which became the 182nd member of the UN in 1993, is in the continent of</p>
+        
+          <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question3" id="option111" value="Asia" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option111">Asia</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question3" id="option222" value="Africa" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option222">Africa</label>
+            </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question3" id="option333" value="Australia" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option333">Australia</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question3" id="option444" value="Europe" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option444">Europe</label>
+            </div>
+            </div>
+          
+        </div>
+  
+        <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+          <h2>Q.4.</h2>
+          <p id="question">Garampani sanctuary is located at</p>
+        
+          <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question4" id="option1111" value="Junagarh, Gujarat" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option1111">Junagarh, Gujarat</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question4" id="option2222" value="Diphu, Assam" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option2222">Diphu, Assam</label>
+            </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question4" id="option3333" value="Kohima, Nagaland" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option3333">Kohima, Nagaland</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question4" id="option4444" value="Gangtok, Sikkim" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option4444">Gangtok, Sikkim</label>
+            </div>
+            </div>
+          
+        </div>
+  
+        <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+          <h2>Q.5.</h2>
+          <p id="question">For which of the following disciplines is Nobel Prize awarded?</p>
+        
+          <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question5" id="option11111" value="Physics and Chemistry" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option11111">Physics and Chemistry</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question5" id="option22222" value="Physiology or Medicine" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option22222">Physiology or Medicine</label>
+            </div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col">
+            <input type="radio" class="btn-check" name="question5" id="option33333" value="Literature, Peace and Economics" autocomplete="off" >
+            <label class="btn btn-outline-dark form-control rounded-pill"  for="option33333">Literature, Peace and Economics</label>
+            </div>
+            <div class="col">
+            <input type="radio" class="btn-check" name="question5" id="option44444" value="All of the above" autocomplete="off">
+            <label class="btn btn-outline-dark form-control rounded-pill" for="option44444">All of the above</label>
+            </div>
+            </div>
+          
+        </div>
+  
+        <div class="col-md-12 text-center mt-3 mb-3">
+          <button type="button" class="btn btn-outline-warning" id="submit" onclick="check()" style="border-radius: 40px; text-align: center;">Submit</button>
+        </div>
+        </form>
+  
+        
+  
+  
+    
+</body>
+</html>

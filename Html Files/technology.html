@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Quizzer | Technology</title>
+    <link rel="shortcut icon" type="image" href="https://cdn-icons-png.flaticon.com/512/71/71768.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script type="text/javascript" src="../JavaScript Files/technology.js"></script>
+
+     <link rel="stylesheet" href="../Css File/quiz.css">
+  </head>
+<body>
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="p-2">
+      <i  class="fa-solid fa-circle-question fa-2xl"></i>
+     </span>
+
+    <a class="navbar-brand" href="index.html">Quizzer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  >
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Technology </a>
+        </li>
+      </ul>
+    </div>
+
+    <h4 > Timer:  </h4>
+        <div class="quiz_timer " style="margin-right: 100px;">
+          <span class="time">00:00</span>
+          </div>
+
+  </nav>
+</div>
+
+
+
+  <div class="container">
+    <h2>Technology Quizzes</h2>
+  </div>
+  
+  <form name="quiz" id="quiz">
+
+    <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+        <h2>Q.1.</h2>
+        <p id="question">The format identifier ‘%i’ is also used for which data type?</p>
+      
+        <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question1" id="option1" value="char" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option1"> char</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question1" id="option2" value="int" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option2"> int</label>
+          </div>
+          </div>
+          <br>
+          <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question1" id="option3" value="float" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option3">float</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question1" id="option4" value="double" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option4">double</label>
+          </div>
+          </div>
+        
+      </div>
+
+      <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+        <h2>Q.2.</h2>
+        <p id="question">Which of the following is a User-defined data type?</p>
+        <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question2" id="option11" value="typedef int Boolean;" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option11">typedef int Boolean;</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question2" id="option22" value="typedef enum {Mon, Tue, Wed, Thu, Fri} Workdays" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option22">typedef enum {Mon, Tue, Wed, Thu, Fri} Workdays</label>
+          </div>
+          </div>
+          <br>
+          <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question2" id="option33" value="struct {char name[10], int age}" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option33">struct {char name[10], int age}</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question2" id="option44" value="all of the mentioned" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option44">all of the mentioned</label>
+          </div>
+          </div>
+        
+      </div>
+        
+      </div>
+
+      <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+        <h2>Q.3.</h2>
+        <p id="question">What is the size of an int data type?</p>
+      
+        <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question3" id="option111" value=" 4 Bytes" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option111"> 4 Bytes</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question3" id="option222" value=" 8 Bytes" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option222"> 8 Bytes</label>
+          </div>
+          </div>
+          <br>
+          <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question3" id="option333" value="Depends on the system/compiler" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option333">Depends on the system/compiler</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question3" id="option444" value="Cannot be determined" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option444">Cannot be determined</label>
+          </div>
+          </div>
+        
+      </div>
+
+      <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+        <h2>Q.4.</h2>
+        <p id="question">Which is correct with respect to the size of the data types?</p>
+      
+        <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question4" id="option1111" value="char > int > float" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option1111">char > int > float</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question4" id="option2222" value="char < int < double" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option2222">char < int < double</label>
+          </div>
+          </div>
+          <br>
+          <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question4" id="option3333" value="int > char > float" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option3333">int > char > float</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question4" id="option4444" value="double > char > inr" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option4444">double > char > inr</label>
+          </div>
+          </div>
+        
+      </div>
+
+      <div class="container mt-3 p-3" style="border: 2px solid rgb(237, 217, 217); border-radius: 8px;padding: 5px;">
+        <h2>Q.5.</h2>
+        <p id="question">What is the precedence of arithmetic operators (from highest to lowest)?</p>
+      
+        <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question5" id="option11111" value="%, *, /, +, –" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option11111">%, *, /, +, –</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question5" id="option22222" value=" %, +, /, *, –" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option22222"> %, +, /, *, –</label>
+          </div>
+          </div>
+          <br>
+          <div class="row">
+          <div class="col">
+          <input type="radio" class="btn-check" name="question5" id="option33333" value="+, -, %, *, /" autocomplete="off" >
+          <label class="btn btn-outline-dark form-control rounded-pill"  for="option33333">+, -, %, *, /</label>
+          </div>
+          <div class="col">
+          <input type="radio" class="btn-check" name="question5" id="option44444" value="%, +, -, *, /" autocomplete="off">
+          <label class="btn btn-outline-dark form-control rounded-pill" for="option44444">%, +, -, *, /</label>
+          </div>
+          </div>
+        
+      </div>
+
+      <div class="col-md-12 text-center mt-3 mb-3">
+        <button type="button" class="btn btn-outline-warning" id="submit" onclick="check()" style="border-radius: 40px; text-align: center;">Submit</button>
+      </div>
+      </form>
+
+      
+  
+</body>
+</html>
